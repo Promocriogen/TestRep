@@ -578,8 +578,6 @@ do
 			mesh.Scale = Vector3.one * 0.2775
 			mesh.MeshType = Enum.MeshType.FileMesh
 			mesh.Parent = handle
-			local touchInterest = Instance.new("TouchTransmitter")
-			touchInterest.Parent = handle
 		end
 		handle.Parent = microphoneV2
 	end
@@ -628,8 +626,6 @@ do
 			trail.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.1187), NumberSequenceKeypoint.new(0.2916, 0.2624), NumberSequenceKeypoint.new(0.5797, 0.3625), NumberSequenceKeypoint.new(0.861, 0.6999), NumberSequenceKeypoint.new(1, 1)})
 			trail.Color = ColorSequence.new(Color3.fromRGB(44, 50, 71), Color3.fromRGB(44, 50, 71))
 			trail.Parent = handle_2
-			local touchInterest_2 = Instance.new("TouchTransmitter")
-			touchInterest_2.Parent = handle_2
 			local particleEmitter = Instance.new("ParticleEmitter")
 			particleEmitter.Texture = "rbxassetid://669133414"
 			particleEmitter.Rate = 100
@@ -1631,8 +1627,6 @@ do
 			decal_6.Texture = "http://www.roblox.com/asset/?id=129748355"
 			decal_6.Face = Enum.NormalId.Bottom
 			decal_6.Parent = handle_3
-			local touchInterest_3 = Instance.new("TouchTransmitter")
-			touchInterest_3.Parent = handle_3
 		end
 		handle_3.Parent = f3xmodded
 		local ui_2 = Instance.new("Folder")
